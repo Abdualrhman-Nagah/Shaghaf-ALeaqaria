@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+.Circle1{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+}
+.box1{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient( to top, rgba(68, 68, 68, 0.95), rgba(97, 97, 97, 0.50) ) , url(../image/a4.jpg) center repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.box2{
+    width: 100%;
+    height: 80vh;
+    margin: -240px 0;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Circle2{
+    width: 100%;
+    height: 60vh;
+    margin-top: -50px;
+    background: linear-gradient( to top, rgba(68, 68, 68, 0.95), rgba(97, 97, 97, 0.50) ) , url(../image/a4.jpg) center repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 60px;
+    border-radius: 50%;
+    border: 10px solid #EBC452;
+}
+.im{
+    margin-top: -100px;
+    overflow: hidden;
+}
+.im img{
+    width: 100%;
+    height: 100%;
+}
+.im2{
+    margin-top: -30px;
+    overflow: hidden;
+}
+.im2 img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:900px){
+    .img{
+        width: 300px;
+        height: 180px;
+    }
+    .Circle2 h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:800px){
+    .img{
+        width: 150px;
+        height: 150px;
+        margin: 0 20px;
+    }
+    .im{
+        margin-top: -150px;
+    }
+    .im2{
+        margin-top: -50px;
+    }
+    .Circle2 h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:700px){
+    .img{
+        width: 150px;
+        height: 150px;
+        margin: 0 20px;
+    }
+    .im{
+        margin-top: -150px;
+    }
+    .im2{
+        margin-top: -50px;
+    }
+    .Circle2 h1{
+        font-size: 25px;
+    }
+
+}
+@media screen and (max-width:600px){
+    .img{
+        width: 150px;
+        height: 150px;
+        margin: 0 20px;
+    }
+    .im{
+        margin-top: -150px;
+    }
+    .im2{
+        margin-top: -50px;
+    }
+    .Circle2 h1{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .img{
+        width: 150px;
+        height: 150px;
+        margin: 0 20px;
+    }
+    .im{
+        margin-top: -300px;
+    }
+    .im2{
+        margin-top: -200px;
+    }
+    .Circle2 h1{
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:414px){
+    .img{
+        width: 150px;
+        height: 150px;
+        margin: 0 20px;
+    }
+    .im{
+        margin-top: -200px;
+    }
+    .im2{
+        margin-top: -100px;
+    }
+    .Circle2 h1{
+        font-size: 10px;
+    }
+    .box2{
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        height: 60vh;
+        margin: -240px 0;
+    }
+
+}
+.text{
+    width: 400px;   
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: #F1C434;
+    font-weight: 800;
+    position: relative;
+    margin: auto;
+    transform: translatey(150px);
+    margin-bottom: 5px;
+}
+.Circle2 h1{
+    position: relative;
+    text-align: center;
+    transform: translatey(140px);
+    color: #F1C434;
+    font-size: 25px;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:  20px;
+    border-bottom: 4px solid #F1C434;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.box1 h3{
+    text-align: center;
+    color: #F1C434;
+    font-size: 30px;
+}
+.box1 h1{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.button-w{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+.button-w img{
+    width: 80px;
+}
